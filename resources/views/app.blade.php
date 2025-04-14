@@ -11,7 +11,8 @@
     <meta name="website" content="https://shreethemes.in">
     <meta name="email" content="support@shreethemes.in">
     <meta name="version" content="1.0">
-    <title inertia>{{ config('app.name', 'Laravel') }}</title>
+    <title inertia>{{ config('app.name', 'Teatro') }}</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Empresa_Estatal_de_Transporte_por_Cable_Mi_Telef%C3%A9rico_Logo.svg/640px-Empresa_Estatal_de_Transporte_por_Cable_Mi_Telef%C3%A9rico_Logo.svg.png" type="image/png">
     @routes
     @viteReactRefresh
     @vite(['resources/js/app.tsx', "resources/js/pages/{$page['component']}.tsx"])

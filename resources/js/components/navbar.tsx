@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "@inertiajs/react";
 import logoDark from '../assets/images/logo-dark.png';
 import logoLight from '../assets/images/logo-light.png';
+import {menuItems}from"@/constants/routes"
 
 export default function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -25,67 +26,6 @@ export default function Navbar() {
     // Manejo del menú activo con estado
     const isActive = (path) => activeMenu === path;
 
-    // Datos del menú en formato declarativo
-    const menuItems = [
-        {
-            title: "Home",
-            submenu: [
-                { path: "/home", title: "Hero One" },
-                { path: "/home2", title: "Hero Two" },
-                { path: "/home3", title: "Hero Three" },
-                {
-                    path: "/index-light",
-                    title: "Hero Light",
-                    badge: "Light"
-                }
-            ]
-        },
-        {
-            path: "/aboutus",
-            title: "About Us",
-            single: true
-        },
-        {
-            path: "/pricing",
-            title: "Pricing",
-            single: true
-        },
-        {
-            title: "Pages",
-            submenu: [
-                { path: "/services", title: "Services" },
-                {
-                    title: "Blog",
-                    submenu: [
-                        { path: "/blog", title: "Blogs" },
-                        { path: "/blog-detail", title: "Blog Detail" }
-                    ]
-                },
-                { path: "/helpcenter", title: "Helpcenter" },
-                {
-                    title: "Auth Pages",
-                    submenu: [
-                        { path: "/login", title: "Login" },
-                        { path: "/signup", title: "Signup" },
-                        { path: "/reset-password", title: "Forgot Password" }
-                    ]
-                },
-                {
-                    title: "Utility",
-                    submenu: [
-                        { path: "/terms", title: "Terms of Services" },
-                        { path: "/privacy", title: "Privacy Policy" }
-                    ]
-                },
-                { path: "/error", title: "404!" }
-            ]
-        },
-        {
-            path: "/contact",
-            title: "Contact",
-            single: true
-        }
-    ];
 
     // Componente para renderizar submenús recursivamente
     const renderSubmenu = (items) => (
@@ -121,7 +61,7 @@ export default function Navbar() {
     return (
         <nav id="topnav" className={`${scroll ? "nav-sticky" : ""} defaultscroll is-sticky`}>
             <div className="container">
-                <Link className="logo" href="/">
+                <Link className="logo" href="/home">
                     <img
                         src={logoDark}
                         className="h-6 inline-block dark:hidden"

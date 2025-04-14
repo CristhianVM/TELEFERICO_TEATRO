@@ -112,10 +112,10 @@ if (document.getElementById("navigation")) {
         <>
         <nav id="topnav" className={`${scroll ? "nav-sticky" : "" } defaultscroll is-sticky`}>
             <div className="container">
-                <Link className="logo" href="/">
+                <Link className="logo" href="/home">
                     <span className="inline-block dark:hidden">
-                        <img src={logoDark} className="h-6 l-dark" alt=""/>
-                        <img src={logoWhite} className="h-6 l-light" alt=""/>
+                        <img src={logoDark} className="h-6 l-dark" alt="Logo page dark"/>
+                        <img src={logoWhite} className="h-6 l-light" alt="Logo page white"/>
                     </span>
                     <img src={logoLight} className="h-6 hidden dark:inline-block" alt=""></img>
                 </Link>

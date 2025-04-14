@@ -32,7 +32,7 @@ export default function Index(){
                 <div className="container relative z-2">
                     <div className="grid grid-cols-1 text-center">
                         <div className="">
-                            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5">Teleferico <br/> Teatro Galpon
+                            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5">Teatro Galpon<br/> proporciona
                                 <TypeAnimation
                                     sequence={[
                                         // Same substring at the start will only be typed out once, initially
@@ -40,7 +40,7 @@ export default function Index(){
                                         2000, // wait 1s before replacing "Mice" with "Hamsters"
                                         'Creatividad',
                                         2000,
-                                        'Elegancia',
+                                        'Conford',
                                         2000
                                     ]}
                                     wrapper="span"
@@ -49,12 +49,12 @@ export default function Index(){
                                     repeat={Infinity}
                                 />
                             </h4>
-                            <p className="text-slate-400 dark:text-white/60 text-lg max-w-xl mx-auto">Artificial intelligence makes it fast easy to create content for your blog, social media, website, and more!</p>
+                            <p className="text-slate-400 dark:text-white/60 text-lg max-w-xl mx-auto">Esta edificación es una antigua Casa de Máquinas Ferroviarias de la Estacion Central de La Paz. La intervencion de restauracion y re funcionalización respeta las carascteristicas principales patrimoniales del edificio.</p>
 
                             <div className="mt-6">
                                 <Link href="" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-amber-400 hover:bg-amber-500 border-amber-400 hover:border-amber-500 text-white rounded-md">Try For Free</Link>
 
-                                <p className="text-slate-400 dark:text-white/60 text-sm mt-3">No credit card required. Free 14-days trial</p>
+                                <p className="text-slate-400 dark:text-white/60 text-sm mt-3">Estacion Central Linea Roja</p>
                             </div>
                         </div>
                         <div className="relative mt-8 z-3">
@@ -81,7 +81,7 @@ export default function Index(){
                     <div className="grid grid-cols-1 pb-6 text-center">
                         <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">The right plans, <br/> <span className="bg-gradient-to-br from-amber-400 to-fuchsia-600 text-transparent bg-clip-text">for the right price</span></h3>
 
-                        <p className="text-slate-400 max-w-xl mx-auto">Artificial intelligence makes it fast easy to create content for your blog, social media, website, and more!</p>
+                        <p className="text-slate-400 max-w-xl mx-auto">Esta edificación es una antigua Casa de Máquinas Ferroviarias de la Estacion Central de La Paz. La intervencion de restauracion y re funcionalización respeta las carascteristicas principales patrimoniales del edificio.</p>
                     </div>
                     <Pricing/>
                 </div>

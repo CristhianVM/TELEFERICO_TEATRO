@@ -44,9 +44,9 @@ export default function IndexTwo(){
                 <div className="relative grid lg:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]">
                     <div className="lg:col-span-7">
                         <div className="lg:me-6 lg:text-start text-center">
-                            <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5">On-brand AI content <br/> wherever you create.</h1>
+                            <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5">Mi Teleférico<br/> Teatro Galpon</h1>
                             <p className="text-lg max-w-xl lg:ms-0 mx-auto">Artificial intelligence makes it fast easy to create content for your blog, social media, website, and more!</p>
-                        
+
                             <div className="subcribe-form mt-6 mb-3">
                                 <form className="relative max-w-md mx-auto lg:ms-0">
                                     <div className="relative">
@@ -86,9 +86,9 @@ export default function IndexTwo(){
                         return(
                             <div className="relative p-6" key={index}>
                                 <i className={`${item.icon} bg-gradient-to-tl to-amber-400 from-fuchsia-600 text-transparent bg-clip-text text-[45px]`}></i>
-        
+
                                 <h5 className="text-xl font-semibold my-5">{item.title}</h5>
-        
+
                                 <p className="text-slate-400">{item.desc}</p>
                             </div>
                         )
