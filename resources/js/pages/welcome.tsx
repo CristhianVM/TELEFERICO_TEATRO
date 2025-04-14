@@ -5,10 +5,6 @@ export default function Welcome() {
     const { auth } = usePage<SharedData>().props;
 
     return (
-        <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-            <h1 className="text-4xl font-bold text-blue-600">
-                Bienvenido a Laravel + Inertia + React + TypeScript + Tailwind!
-            </h1>
-        </div>
+        <h1>todo bien</h1>
     );
 }
